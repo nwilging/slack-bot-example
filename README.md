@@ -33,7 +33,7 @@ class AppServiceProvider extends ServiceProvider
 ```
 
 # Creating a Command Handler
-An example command handler can be found at `App\TestCommandHandler`:
+An example command handler can be found at `App\WeatherCommandHandler`:
 ```phpt
 <?php
 declare(strict_types=1);
@@ -44,7 +44,7 @@ use Nwilging\LaravelSlackBot\Contracts\SlackCommandHandlerContract;
 use Nwilging\LaravelSlackBot\Support\SlackCommandRequest;
 use Symfony\Component\HttpFoundation\Response;
 
-class TestCommandHandler implements SlackCommandHandlerContract
+class WeatherCommandHandler implements SlackCommandHandlerContract
 {
     public function handle(SlackCommandRequest $commandRequest): Response
     {
@@ -56,4 +56,4 @@ class TestCommandHandler implements SlackCommandHandlerContract
 
 # More Information
 
-For more information on this project, check out the blog post here.
+For more information on this project, check out the blog post [here](https://blog.wilging.org/building-a-slack-bot-with-laravel/).
