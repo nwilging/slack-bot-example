@@ -56,4 +56,4 @@ class WeatherCommandHandler implements SlackCommandHandlerContract
 
 # More Information
 
-For more information on this project, check out the blog post [here](https://blog.wilging.org/building-a-slack-bot-with-laravel/).
+For more information on this project, check out the blog post [here](https://blog.wilging.org/laravel-slack-bot/).
